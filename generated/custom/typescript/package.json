@@ -1,0 +1,44 @@
+{
+  "name": "snap-openrpc-generator",
+  "private": true,
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/my-org/my-snap.git"
+  },
+  "main": "./build/index.js",
+  "files": [
+    "build/**/*",
+    ".node-version"
+  ],
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "test": "npm run test:lint && npm run test:unit",
+    "test:unit": "jest --coverage",
+    "test:lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
+    "build": "tsc && npm run build:snap",
+    "build:snap": "mm-snap build -s build/index.js",
+    "watch:build": "tsc --watch",
+    "watch:test": "jest --watch",
+    "serve": "mm-snap serve"
+  },
+  "author": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@metamask/snaps-cli": "^0.7.0",
+    "@open-rpc/meta-schema": "^1.6.0",
+    "@types/jest": "25.1.0",
+    "jest": "^25.1.0",
+    "ts-jest": "25.0.0",
+    "typescript": "3.7.5"
+  },
+  "web3Wallet": {
+    "bundle": {
+      "local": "bundle.js",
+      "url": "http://localhost:8081/bundle.js"
+    },
+    "initialPermissions": {
+      "snap_confirm": {}
+    }
+  }
+}

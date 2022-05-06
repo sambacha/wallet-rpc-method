@@ -1,0 +1,35 @@
+# -*- mode: gitignore; -*-
+/out
+/dist 
+cache/
+artifacts
+coverage/
+node_modules
+
+## General ##
+*~
+\#*\#
+/**/build
+.DS_Store
+node_modules
+tmp/
+_dev/
+coverage/
+
+## Binary ##
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+## IDE ##
+.secret
+.idea/*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace

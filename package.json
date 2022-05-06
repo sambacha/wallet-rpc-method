@@ -1,0 +1,19 @@
+{
+  "name": "wallet-rpc-method",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sam bacha",
+  "license": "ISC",
+  "dependencies": {
+    "@open-rpc/client-js": "^1.7.1"
+  },
+  "devDependencies": {
+    "@open-rpc/generator": "^1.22.2",
+    "@xops.net/snaps-openrpc-generator": "^1.17.4"
+  }
+}

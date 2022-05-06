@@ -1,0 +1,20 @@
+{
+  "openrpcDocument": "./openrpc.json",
+  "outDir": "./generated",
+  "components": [
+      {
+        "type": "custom",
+        "name": "snap-openrpc-generator",
+        "language": "typescript",
+        "customComponent": "@xops.net/snaps-openrpc-generator/build/components/snap",
+        "customType": "snap"
+      },
+      {
+        "type": "custom",
+        "name": "snap-docs-openrpc-generator",
+        "language": "docs",
+        "customComponent": "@xops.net/snaps-openrpc-generator/build/components/docs",
+        "customType": "docs"
+    }
+  ]
+}
