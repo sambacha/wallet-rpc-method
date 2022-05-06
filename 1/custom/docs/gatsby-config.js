@@ -4,7 +4,7 @@ const emoji = require("remark-emoji");
 module.exports = {
   pathPrefix: "/pristine-typescript-gatsby-react-material-ui",
   siteMetadata: {
-    title: 'MetaMask Snaps Execution Environment API',
+    title: 'MySnap',
     description: '',
     logoUrl: 'https://camo.githubusercontent.com/bc04ec4cd12a232ee902ce0c0344098ad854e80d/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313439322f312a337256307a30756654716b474334524a3376585177412e706e67',
     primaryColor: '#3f51b5', //material-ui primary color

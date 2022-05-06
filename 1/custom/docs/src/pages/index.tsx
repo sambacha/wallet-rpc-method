@@ -10,7 +10,7 @@ const MyApp: React.FC = () => {
       <Grid container alignContent="center" alignItems="center" justify="center" direction="column">
 <img className="logo" alt="logo" src={"https://camo.githubusercontent.com/bc04ec4cd12a232ee902ce0c0344098ad854e80d/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313439322f312a337256307a30756654716b474334524a3376585177412e706e67"} style={{ paddingTop: "10%", width: "500px" }} />
         <br/>
-        <Typography variant="h1">MetaMask Snaps Execution Environment API</Typography>
+        <Typography variant="h1">MySnap</Typography>
         <Typography gutterBottom style={{ paddingTop: "100px", paddingBottom: "20px" }} variant="inherit">
           
         </Typography>

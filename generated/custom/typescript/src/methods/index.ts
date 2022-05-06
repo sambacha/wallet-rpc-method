@@ -1,7 +1,13 @@
-import hello from "./hello";
+import ping from "./ping";
+import terminate from "./terminate";
+import executeSnap from "./executeSnap";
+import snapRpc from "./snapRpc";
 
 const methods = {
-  hello,
+  ping,
+  terminate,
+  executeSnap,
+  snapRpc,
 };
 
 export default methods;

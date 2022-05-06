@@ -2,10 +2,7 @@
 import methods from "./methods";
 
 export const methodMapping: Record<string, (...params: any) => any> = {
-  ping: methods.ping,
-  terminate: methods.terminate,
-  executeSnap: methods.executeSnap,
-  snapRpc: methods.snapRpc,
+  hello: methods.hello,
 };
 
 export default methodMapping;

@@ -2,7 +2,7 @@
   "name": "snap-docs-openrpc-generator",
   "private": true,
   "description": "",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "dependencies": {
     "@apidevtools/json-schema-ref-parser": "^9.0.7",
     "@etclabscore/react-monaco-editor": "1.0.4",
